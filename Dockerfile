@@ -5,7 +5,7 @@ FROM node:alpine as builder
 WORKDIR '/app'
 
 #Copy the package.json from the project into the container's working directory
-COPY package.json .
+COPY ./package*.json ./
 
 #Install the dependencies
 RUN yarn install
