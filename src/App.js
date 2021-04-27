@@ -14,7 +14,7 @@ function App() {
 					href='https://reactjs.org'
 					target='_blank'
 					rel='noopener noreferrer'>
-					Learn React from Scratch with Juan Pablo de la Torre Valdez
+					Learn React from Scratch with Juan Pablo de la Torre Valdez....
 				</a>
 			</header>
 		</div>
