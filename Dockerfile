@@ -19,6 +19,8 @@ RUN yarn build
 #RUN PHASE
 FROM nginx
 
+EXPOSE 80
+
 #Copy the build folder from the builder phase inside the nginx Container
 COPY --from=builder /app/build /usr/share/nginx/html
 
